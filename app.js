@@ -5,3 +5,7 @@ if(amount < 10){
 else{
     console.log('large number')
 }
+console.log(__dirname)
+setInterval(()=>{
+    console.log("hello world")
+},1000)

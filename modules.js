@@ -1,6 +1,8 @@
 // Every file is a module by default
 // Modules - Encapsulated Code (Only share minimum)
+const names = require('./names')
+const sayHi = require("./utility")
 sayHi('susan')
-sayHi(john)
-sayHi(peter)
+sayHi(names.john)
+sayHi(names.peter)
 
